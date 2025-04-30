@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #VPC Configuration
 VPC CIDR Range: 10.0.0.0/22
 Region: [Your AWS Region]
@@ -31,3 +32,7 @@ Availability Zone 1
 aws ec2 create-vpc \
     --cidr-block 10.0.0.0/22 \
     --tag-specifications 'ResourceType=vpc,Tags=[{Key=Name,Value=MyVPC}]'
+=======
+# Creating-a-VPC
+Step by step procedure for creating a VPC in AWS cloud
+>>>>>>> 600e359d126dbc6932ab30612fbcd2bd70fc0e7c
